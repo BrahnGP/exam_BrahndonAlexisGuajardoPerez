@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio - Brahndon Alexis Guajardo Perez</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <h1>Brahndon Alexis Guajardo Perez</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="container">
+          <h2>Welcome to My Portfolio</h2>
+          <p>I'm a passionate developer creating amazing web experiences.</p>
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <div class="container">
+          <h2>About Me</h2>
+          <p>
+            I am a dedicated and enthusiastic web developer with a passion for
+            creating clean, efficient, and user-friendly websites. My journey in
+            web development began with a curiosity about how websites work, and
+            it has evolved into a deep appreciation for both the technical and
+            creative aspects of building digital experiences.
+          </p>
+
+          <p>
+            When I'm not coding, I enjoy exploring new technologies,
+            contributing to open-source projects, and staying up-to-date with
+            the latest web development trends. I believe in writing clean,
+            maintainable code and creating websites that not only look great but
+            also provide excellent user experiences across all devices and
+            platforms.
+          </p>
+        </div>
+      </section>
+
+      <section id="skills" class="skills">
+        <div class="container">
+          <h2>Technical Skills</h2>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <h3>HTML5</h3>
+              <p>Semantic markup and modern web standards</p>
+            </div>
+            <div class="skill-item">
+              <h3>CSS3</h3>
+              <p>Responsive design, Flexbox, Grid, and animations</p>
+            </div>
+            <div class="skill-item">
+              <h3>JavaScript</h3>
+              <p>Modern ES6+ features and DOM manipulation</p>
+            </div>
+            <div class="skill-item">
+              <h3>Git & GitHub</h3>
+              <p>Version control and collaborative development</p>
+            </div>
+            <div class="skill-item">
+              <h3>Responsive Design</h3>
+              <p>Mobile-first approach and cross-browser compatibility</p>
+            </div>
+            <div class="skill-item">
+              <h3>Web Accessibility</h3>
+              <p>WCAG guidelines and inclusive design practices</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="container">
+          <h2>Contact Me</h2>
+          <form class="contact-form" action="#" method="post">
+            <div class="form-group">
+              <label for="name">Full Name *</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your full name"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email address"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="What is this about?"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Write your message here..."
+                required
+              ></textarea>
+            </div>
+
+            <div class="form-buttons">
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+              <button type="reset" class="btn btn-secondary">Reset Form</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>
+          &copy; 2025 [Brahndon Alexis Guajardo Perez]. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
